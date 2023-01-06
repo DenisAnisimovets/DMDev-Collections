@@ -23,7 +23,6 @@ public class Starter {
         System.out.println();
         System.out.println(studentUtil.getStudents(studentList));
         System.out.println();
-        System.out.println();
 
     }
 }
