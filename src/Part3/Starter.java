@@ -23,7 +23,13 @@ public class Starter {
         System.out.println();
         System.out.println(studentUtil.getStudents(studentList));
         System.out.println();
-
+        System.out.println(studentUtil.getStudentsIdentities(studentList));
+        System.out.println();
+        System.out.println(studentUtil.getStudentsIdentities2(studentList));
+        System.out.println();
+        System.out.println(studentUtil.getStudentsIdentities(studentList).toString().equals(studentUtil.getStudentsIdentities2(studentList).toString()));
+        System.out.println();
+        System.out.println(studentUtil.getStudentsStatistic(studentList));
     }
 }
 
